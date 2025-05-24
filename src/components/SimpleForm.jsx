@@ -1,10 +1,12 @@
-import styles from "./SimpleForm.module.css";
-import { useState } from "react";
 import Joi from "joi";
+import { useState } from "react";
+import styles from "./SimpleForm.module.css";
 
 function ErrorMessage({ message }) {
   return <span style={{ color: "red" }}>{message}</span>;
 }
+
+console.log("Stanley Test");
 
 function SimpleForm() {
   const [user, setUser] = useState({
